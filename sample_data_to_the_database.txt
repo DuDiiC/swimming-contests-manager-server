@@ -1,0 +1,148 @@
+-- CONTESTS
+
+insert into contest(id, name, city, date) values (0, 'Puchar Raciborza', 'Racibórz', '2020-03-12');
+insert into contest(id, name, city, date) values (1, 'Puchar Pomorza', 'Gdynia', '2019-08-12');
+insert into contest(id, name, city, date) values (2, 'XXI Mistrzostwa Kujaw', 'Brodnica', '2019-09-17');
+insert into contest(id, name, city, date) values (3, 'Pierwsze Otwarte Mistrzostwa Torunia Seniorów', 'Toruń', '2020-03-09');
+insert into contest(id, name, city, date) values (4, 'VI Mistrzostwa Miasta Juniorów', 'Gorzów Wielkopolski', '2020-03-08');
+insert into contest(id, name, city, date) values (5, 'Mistrzostwa Polski Juniorów 15 lat', 'Dębica', '2019-07-12');
+insert into contest(id, name, city, date) values (6, 'Uniwersjada - Finał', 'Warszawa', '2020-12-12');
+
+-- COMPETITIONS
+
+-- dowolny kobiet
+insert into competition(id, distance, gender, style) values (0, 50, 'K', 'dowolny');
+insert into competition(id, distance, gender, style) values (1, 100, 'K', 'dowolny');
+insert into competition(id, distance, gender, style) values (2, 200, 'K', 'dowolny');
+insert into competition(id, distance, gender, style) values (3, 400, 'K', 'dowolny');
+insert into competition(id, distance, gender, style) values (4, 800, 'K', 'dowolny');
+
+-- dowolny mężczyzn
+insert into competition(id, distance, gender, style) values (5, 50, 'M', 'dowolny');
+insert into competition(id, distance, gender, style) values (6, 100, 'M', 'dowolny');
+insert into competition(id, distance, gender, style) values (7, 200, 'M', 'dowolny');
+insert into competition(id, distance, gender, style) values (8, 400, 'M', 'dowolny');
+insert into competition(id, distance, gender, style) values (9, 1500, 'M', 'dowolny');
+
+-- grzbietowy kobiet
+insert into competition(id, distance, gender, style) values (10, 50, 'K', 'grzbietowy');
+insert into competition(id, distance, gender, style) values (11, 100, 'K', 'grzbietowy');
+insert into competition(id, distance, gender, style) values (12, 200, 'K', 'grzbietowy');
+
+-- grzbietowy mężczyzn
+insert into competition(id, distance, gender, style) values (13, 50, 'M', 'grzbietowy');
+insert into competition(id, distance, gender, style) values (14, 100, 'M', 'grzbietowy');
+insert into competition(id, distance, gender, style) values (15, 200, 'M', 'grzbietowy');
+
+-- klasyczny kobiet
+insert into competition(id, distance, gender, style) values (16, 50, 'K', 'klasyczny');
+insert into competition(id, distance, gender, style) values (17, 100, 'K', 'klasyczny');
+insert into competition(id, distance, gender, style) values (18, 200, 'K', 'klasyczny');
+
+-- klasyczny mężczyzn
+insert into competition(id, distance, gender, style) values (19, 50, 'M', 'klasyczny');
+insert into competition(id, distance, gender, style) values (20, 100, 'M', 'klasyczny');
+insert into competition(id, distance, gender, style) values (21, 200, 'M', 'klasyczny');
+
+-- motylkowy kobiet
+insert into competition(id, distance, gender, style) values (22, 50, 'K', 'motylkowy');
+insert into competition(id, distance, gender, style) values (23, 100, 'K', 'motylkowy');
+insert into competition(id, distance, gender, style) values (24, 200, 'K', 'motylkowy');
+
+-- motylkowy mężczyzn
+insert into competition(id, distance, gender, style) values (25, 50, 'M', 'motylkowy');
+insert into competition(id, distance, gender, style) values (26, 100, 'M', 'motylkowy');
+insert into competition(id, distance, gender, style) values (27, 200, 'M', 'motylkowy');
+
+-- zmienny kobiet
+insert into competition(id, distance, gender, style) values (28, 100, 'K', 'zmienny');
+insert into competition(id, distance, gender, style) values (29, 200, 'K', 'zmienny');
+insert into competition(id, distance, gender, style) values (30, 400, 'K', 'zmienny');
+
+-- zmienny mężczyzn
+insert into competition(id, distance, gender, style) values (31, 100, 'M', 'zmienny');
+insert into competition(id, distance, gender, style) values (32, 200, 'M', 'zmienny');
+insert into competition(id, distance, gender, style) values (33, 400, 'M', 'zmienny');
+
+-- CLUBS
+
+insert into club(id, city, name) values (0, 'Bydgoszcz', 'AZS Astoria');
+insert into club(id, city, name) values (1, 'Bydgoszcz', 'MUKS 15');
+insert into club(id, city, name) values (2, 'Poznań', 'Warta');
+insert into club(id, city, name) values (3, 'Toruń', 'Delfin');
+insert into club(id, city, name) values (4, 'Włocławek', 'Delfin');
+insert into club(id, city, name) values (5, 'Bydgoszcz', 'MKS SP 63');
+insert into club(id, city, name) values (6, 'Inowrocław', 'UKS Wodnik');
+insert into club(id, city, name) values (7, 'Grudziądz', 'Orka');
+insert into club(id, city, name) values (8, 'Wrocław', 'AZS AWF');
+insert into club(id, city, name) values (9, 'Kraków', 'Korona');
+insert into club(id, city, name) values (10, 'Warszawa', 'AZS AWF Warszawianka');
+insert into club(id, city, name) values (11, 'Gorzów Wielkopolski', 'Słowianka');
+insert into club(id, city, name) values (12, 'Dębica', 'UKP Gryf');
+
+-- COMPETITITORS
+
+-- PERSONAL IDS (MALE):
+83072328973
+53042246895
+93030956139
+51040653594
+94042899355
+51111627154
+84010712838
+60051516699
+59022476379
+63062795499
+54072735599
+78011237771
+00240831976
+67082544697
+74030728816
+71091495619
+58021323934
+96020599778
+59122225914
+01282798997
+93012992751
+56051664159
+77100344712
+74101098596
+65101559857
+71101574217
+81102913139
+59122232631
+73102873791
+86052569276
+-- PERSONAL IDS (FEMALE):
+86070752922
+96080187948
+70022316164
+63052183682
+81060316623
+77012858727
+58062586642
+63061411866
+96022993723
+66022263629
+01282165825
+50012443328
+66120692125
+67062621921
+49090978567
+01262361441
+02271353746
+96032988849
+68022362223
+47040453425
+01221045346
+46010938184
+79061638826
+02260886682
+68073161369
+76112687925
+87031978647
+77101026488
+87041634788
+89090338422
+
+
